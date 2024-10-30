@@ -1,0 +1,53 @@
+
+body.login {
+    background: #FFFFFF;
+    background-image:url('background-corner.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/* Custom login logo or use a hook in functions.php */
+.login h1 a {
+    background-image: url('logo.png');
+    background-size: 292px /* 92px */;
+    width: 292px;
+    /* height: 92px; */
+}
+
+#login {
+    padding: 100px 0 0;
+}
+
+/* Style the login form */
+.login form {
+    margin-left:auto;
+    margin-right:auto;
+    padding:30px;
+    border: 1px solid rgba(0,0,0,.2);
+    background-clip: padding-box;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+.login label {
+    color: #333333 !important;
+    line-height: 26px;
+    font-weight:bold;
+}
+
+.login .button-primary {
+    width: 120px;
+    float:right;
+}
+.login form input[type="checkbox"]:checked + .checkbox-material .check::before {
+  color: #f47920;
+}
+.wp-core-ui .button-primary {
+  background: #f47920 none repeat scroll 0 0;
+}
+
+.wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:active {
+  background: #fff none repeat scroll 0 0;
+    border:#f47920;
+}

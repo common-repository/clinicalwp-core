@@ -1,0 +1,220 @@
+/* Fixes For Admin Clinical CMS (At A Glance Panel) Components */
+#dashboard_right_now .sub p:not(:last-child) {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 15px;
+}
+/* Removes the WordPress version and theme from 'At a glance' panel */
+.main > p#wp-version-message {
+  display: none;
+  visibility: hidden;
+}
+
+/*Fixes for use with Materially Flat Theme*/
+/*hides the checkbox behind enable/disable options*/
+.tf-enable .checkbox-material span.check {
+    display: none;
+}
+/*Makes post right column metaboxes visible in chrome*/
+.js input[type=checkbox]{
+    height: 1px;
+}
+/*fix the gap between enable/disable buttons*/
+.tf-enable .button.button-primary, .tf-enable .button.button-secondary {
+    margin-left:0;
+    margin-right:0;
+}
+/*Style the dashboard widget headers*/
+#dashboard-widgets-wrap .postbox-container .meta-box-sortables.ui-sortable h2 {
+    background-color: #f47920 !important;
+}
+#dashboard-widgets-wrap .postbox-container .meta-box-sortables.ui-sortable h2 span {
+    color: #fff;
+}
+/*set button colour*/
+.wp-core-ui .button-primary:active, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover, .wp-core-ui .button-secondary:active, .wp-core-ui .button-secondary:focus, .wp-core-ui .button-secondary:hover, .wp-core-ui .button.button-primary.button-hero, .wp-core-ui .button.button-primary.button-hero.active, .wp-core-ui .button.button-primary.button-hero.active:focus, .wp-core-ui .button.button-primary.button-hero.active:hover, .wp-core-ui .button.button-primary.button-hero:active, .wp-core-ui .button-primary, .media-frame a.button-primary {
+    background-color: #f47920 !important;
+}
+/* Left Panel Logo */
+#adminmenu li:first-child::before {
+  background-image: url("/../wp-content/plugins/Clinical-CMS/clinical_custom/admin-sidebar-logo.png");
+  background-repeat: no-repeat;
+  background-size: 160px 50px;
+  content: "";
+  display: inline-block;
+  height: 50px;
+  margin: 0 0 -4px;
+  width: 160px;
+}
+/* Set top admin bar */
+#wpadminbar{
+    padding: 0 0 5px 0;
+}
+#wpadminbar li:hover{
+    background:#f47920;
+}
+/* currently active left admin bar header */
+.wp-menu-open a .wp-menu-name, .current.menu-top a .wp-menu-name {
+    background-color: #f47920;
+}
+/*Set left-side admin menu*/
+#adminmenuback, #adminmenuwrap, #adminmenu {
+    background: #95a5a6;
+}
+/*set current selected left menu header*/
+.wp-menu-open a .wp-menu-name, .current.menu-top a .wp-menu-name {
+    /*background-color: #9b59b6;*/
+    background-color: #f47920;
+}
+/*set left admin menu hover*/
+#adminmenu a:hover, #adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top {
+    background-color: #f47920;
+}
+/*set checkboxes*/ 
+input[type="checkbox"]:checked + .checkbox-material .check::before{
+    color:#fff;
+}
+input[type="checkbox"]:checked + .checkbox-material .check {
+    background-color: #f47920;
+}
+/*set alert colours*/
+.notice-success, div.updated {
+    background-color: #2ecc71;
+    color: #fff !important;
+}
+.notice-error, div.error {
+    background-color: #e74c3c;
+    color: #fff !important;
+}
+.error a, .updated a {
+    color: #000 !important;
+}
+/*set "add new" buttons*/
+.wrap .add-new-h2, .wrap .page-title-action, #add-new-comment a, .tablenav .tablenav-pages a {
+    background-color: #f47920;
+    color: #fff !important;
+}
+.wrap .add-new-h2:hover, .wrap .page-title-action:hover, #add-new-comment a:hover, .tablenav .tablenav-pages a:hover {
+    background-color: #f47920 !important;
+    color: #000 !important;
+}
+/*Right Panel Metabox headers*/
+.postbox-container h2.hndle.ui-sortable-handle {
+    background-color: #f47920 !important;
+}
+.postbox-container h2.hndle.ui-sortable-handle span {
+    color: #fff !important;
+}
+/*Plugin Update Notifications*/
+#adminmenu .awaiting-mod, #adminmenu .update-plugins{
+    background-color:#e74c3c;
+}
+/* Clinical CMS Headers */
+.titan-framework-panel-wrap .options-container h2 {
+    background-color: #f47920;
+    color: #fff;
+}
+/*
+/* Top Bar * /
+#wpadminbar {
+	background: none repeat scroll 0 0 #000000;
+	font: 400 13px/32px "Open Sans",sans-serif;
+}
+*/
+/* Side Bar */
+/*
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+	background-color: #000000;
+}
+*/
+/* Side Bar Selected Header */
+/*
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+	background: none repeat scroll 0 0 #2ea2cc;
+}
+*/
+/* Side Bar Selected Menu Options * /
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu.sub-open, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu, .no-js li.wp-has-current-submenu:hover .wp-submenu {
+	/*background-color: black;*/
+	/*margin-left:15px;*/
+}
+/* Replace The Small WP Logo In Admin Bar */
+/* #header-logo { background-image: url("/wp-content/themes/CherryFramework/clinical_custom/clinical_custom/logo.png") !important; } */
+
+/* Add Code Clinic RainFall Logos */
+/*
+#wpbody {
+background-image: url("/wp-content/themes/CherryFramework/clinical_custom/background-corner.png");
+background-repeat: no-repeat;
+margin-left: 0;
+padding-top: 115px;
+}
+*/
+/*
+/* Admin Bar Top Custom Menu - Clinical CMS Top Menu * /
+#wp-admin-bar-clinical-menu .ab-icon:before{
+	font-family: "dashicons" !important;
+	content: "\f348" !important;
+	vertical-align:bottom;
+}
+*/
+/*
+.wp-has-current-submenu .wp-submenu.wp-submenu-wrap {
+	border-bottom: 1px dashed;
+}
+*/
+/*
+#wpsupport_dashboard_widget .inside .main, #wp_dashboard_widget .inside .main{
+	overflow: hidden !important;
+	padding: 0 12px 11px !important;
+}
+*/
+/* IMPROVE WP EDITOR VISIBILITY WITH SLATE THEME */
+.wp-editor-area {
+  border: 1px solid #ddd !important;
+}
+
+/* REMOVE TITAN FRAMEWORK FOOTER NOTE */
+#wpfooter p#footer-left em {
+    display: none !important;
+}
+
+/* FIX PLUGIN MENU ITEMS ADDED TO TOP BAR WITH SLATE ADMIN SKIN */
+#wp-admin-bar-root-default li div {
+  padding: 14px 10px 15px !important;
+}
+
+/* SLATE ADMIN THEME STYLING FIXES * /
+#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu .current div.wp-menu-image::before, #adminmenu .wp-has-current-submenu div.wp-menu-image::before, #adminmenu a.current:hover div.wp-menu-image::before, #adminmenu a.wp-has-current-submenu:hover div.wp-menu-image::before, #adminmenu li.wp-has-current-submenu:hover div.wp-menu-image::before {
+	color: orange;
+}
+*/
+#normal-sortables .postbox .inside, .postbox .inside, .stuffbox .inside, #normal-sortables .postbox .inside {
+	padding: 5px 12px 12px;
+}
+#dashboard_right_now .inside {
+  padding: 10px 0 0;
+}
+/*
+#wp-admin-bar-WPML_ALS div.ab-item.ab-empty-item{
+	padding:14px 10px 15px;
+}
+.folded #wp-admin-bar-WPML_ALS div.ab-item.ab-empty-item{
+	padding: 2px 7px;
+}
+#wpadminbar .ab-submenu .ab-item, #wpadminbar .quicklinks .menupop ul li a, #wpadminbar .quicklinks .menupop ul li a strong, #wpadminbar .quicklinks .menupop.hover ul li a, #wpadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: #2ea2cc;
+}
+.folded #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+  background: none repeat scroll 0 0 orange !important;
+}
+*/
+
+.clinical-welcome-head{
+	text-align:center;
+}
+
+/* Adjust admin footer so chat icon doesnt overlap paging */
+#wpfooter {
+  margin-bottom: -50px;
+  padding: 20px;
+}

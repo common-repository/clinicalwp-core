@@ -1,0 +1,136 @@
+/**
+*
+*	Hide Welcome Panel Dismiss Link - Dashboard Styling
+*
+**/
+#wp_welcome_panel-hide {
+	display: none;
+}
+/**
+*
+*	Big Orange Video Tutorial Button - Dashboard Styling
+*
+**/
+.wp-core-ui .welcome-panel .button.button-hero {
+	margin: 6px 13px 3px 0;
+}
+/**
+*
+* ClinicalWP Panel
+*
+**/
+.dash-logo{
+	width: calc(100% + 24px);
+	padding: 0;
+	margin: -12px -12px auto;
+}
+.module-icons {
+	width:100%;
+	margin-right:4%;
+}
+.module-icons.disabled{
+	filter: grayscale(1.0);
+}
+/**
+*
+*	At A Glance - Dashboard Styling
+*
+**/
+#dashboard_right_now .sub p:not(:last-child) {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 15px;
+}
+#dashboard_right_now .sub {
+	color: #555d66;
+}
+#dashboard_right_now .sub p {
+	margin: 0 0 1em;
+}
+/**
+*
+*  Dashboard Tools Icon Styling
+*
+**/
+.dashicons{
+	font-size:20px !important;
+}
+.flag-green a:link, .flag-green a:hover, .flag-green a:visited, .flag-green a:active, .flag-green{
+	display:inline-block;
+	color:green;
+	padding:2px;
+}
+.flag-orange a:link, .flag-orange a:hover, .flag-orange a:visited, .flag-orange a:active, .flag-orange{
+	display:inline-block;
+	color:#f47920;
+	padding:2px;
+}
+.flag-red a:link, .flag-red a:hover, .flag-red a:visited, .flag-red a:active, .flag-red{
+	display:inline-block;
+	color:red;
+	padding:2px;
+}
+/* */
+.mod {
+  color: white;
+  display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+  position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+  padding: 0; /* Add some padding so it looks nice */
+  width: 20%;
+  margin-right: 4%;
+}
+/* Make the badge float in the top right corner of the button */
+.button__badge {
+	background-color: #fa3e3e;
+	border-radius: 10px;
+	color: white;
+	padding: 1px 8px 1px 8px;
+	font-size: 10px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	font-weight: 800;
+}
+/* The Updates Needed Button */
+.CWP_btn, .CWP_btn:visited{
+	display:inline-block;
+	/* color:#fff; */
+	color: #505050;
+	background-color:#ace8dc;
+	padding:10px 0;width:100%;
+	margin-top:20px;
+	font-weight:800;
+	text-align:center;
+	/* text-shadow:darkgrey 1px 1px; */
+	letter-spacing:1px;
+}
+.CWP_btn:active, .CWP_btn:hover {
+	/* color: black; */
+	box-shadow: inset 1px 1px lightgray;
+	background-color: #85C1B5;
+	color:#ffffff;
+}
+/**
+*
+*  Left Menu / Support Widget
+*
+**/
+#adminmenu {
+	padding-bottom: 20px;
+}
+
+/**
+*
+* CWP Titan Options Section Headers
+*
+**/
+.tf-heading {
+	display: block;
+	margin-top: 30px;
+}
+.tf-heading th {
+	background-color: lightsteelblue !important;
+}
+.titan-framework-panel-wrap .tf-heading th h3{
+	color:white !important;
+	font-weight:900 !important;
+}

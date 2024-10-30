@@ -1,0 +1,2435 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Clinical CMS Core\n"
+"POT-Creation-Date: 2018-04-17 22:00+0200\n"
+"PO-Revision-Date: 2015-06-27 21:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: Clinical_CMS.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Clinical_CMS.php:399
+msgid ""
+"<!-- Need Assistance? Get support 09:30-16:00 weekdays via the chat widget "
+"on the bottom right of this page, via telephone on <a href=\"tel:"
+"+4401614084759\">+44 (0)161-408-4759</a> or <a href=\"mailto:"
+"hallo@codeclinic.de?subject=Client Support\">Email</a> -->\n"
+"<style>#fb_widget .label{position:relative;float:left;color:#005f46;min-"
+"width:20%} #fb_widget .field{position:relative;float:left} #fb_widget ."
+"element{border:0 dotted red;margin:12px;padding:5px;min-height:25px;clear:"
+"both} #fb_widget .field input{margin:0;padding:0} #fb_link."
+"disabled{opacity:0;visibility:hidden;}#fb_link.disabled .tooltiptext{font-"
+"size:0} #fb_link.disabled .tooltiptext:after{content:\"OFFLINE\";font-"
+"size:12px} #fb_link.email_us .tooltiptext{font-size:0} #img_email{display:"
+"none;} #fb_link.email_us .tooltiptext:after{content:\"Support Offline\";font-"
+"size:12px;color:red;font-weight:800} .fbmessenger{position:fixed;bottom:15px;"
+"right:15px;z-index:999999999} .fbmessenger span{z-index:999999999;position: "
+"absolute;} .fbmessenger.wpostop_left{left:2px;right:initial;top:0;bottom:"
+"initial} .tooltiptext.wpostop_left{left:60px;right:initial;top:8px;bottom:"
+"initial} .fbmessenger.wpostop_right{left:initial;right:15px;top:0;bottom:"
+"initial} .tooltiptext.wpostop_right{left:initial;right:60px;top:8px;bottom:"
+"initial} .fbmessenger.wposbottom_left{left:2px;right:initial;top:initial;"
+"bottom:0} .tooltiptext.wposbottom_left{left:60px;right:initial;top:initial;"
+"bottom:10px} .fbmessenger.wposbottom_right{left:initial;right:15px;top:"
+"initial;bottom:0} .tooltiptext.wposbottom_right{left:initial;right:60px;top:"
+"initial;bottom:10px} .fbmessenger img{width:50px;filter:drop-shadow(2px 6px "
+"4px rgba(0,0,0,.3));-webkit-filter:drop-shadow(2px 6px 4px rgba(0,0,0,.3))} ."
+"tooltiptext{width:120px;background-color:#fff;color:#2c2c2c;text-align:"
+"center;padding:5px 0;border:1px solid #eee;border-radius:6px;position:fixed;"
+"bottom:30px;right:75px;font-family:inherit;font-size:inherit;text-transform:"
+"uppercase;filter:drop-shadow(2px 6px 4px rgba(0,0,0,.3));-webkit-filter:drop-"
+"shadow(2px 6px 4px rgba(0,0,0,.3))}</style>\n"
+"<div class=\"code\"> <a id=\"fb_link\" href=\"mailto:hallo@codeclinic.de\" "
+"target=\"_self\" class=\"email_us\" style=\"display: inline;\"> <div class="
+"\"fbmessenger wposbottom_right\"><img id=\"img_msg\" src=\"https://cdn."
+"supple.com.au/wp-content/themes/supple/img/msg.png\" style=\"display: none;"
+"\"><img id=\"img_email\" src=\"https://cdn.supple.com.au/wp-content/themes/"
+"supple/img/emailc.png\"> <span class=\"tooltiptext wposbottom_right\" style="
+"\"color:green;font-weight:800\">Support Online</span> </div> </a> </div>\n"
+msgstr ""
+
+#: Clinical_CMS.php:467
+#, php-format
+msgid "Hosting Environment [%s]"
+msgstr ""
+
+#: Clinical_CMS.php:489
+msgid ""
+"ClinicalWP is a suite of modular tools that enhance WordPress via an easy to "
+"use control panel. Features include added security, image optimisation, "
+"improved page loading times, SEO, caching & much more.  "
+msgstr ""
+
+#: Clinical_CMS.php:490
+msgid "A Project Developed By: "
+msgstr ""
+
+#: Clinical_CMS.php:495
+msgid "Write A Review"
+msgstr ""
+
+#: Clinical_CMS.php:497
+msgid ""
+"As a small digital creative studio we rely heavily on the quality of our "
+"work and the great reputation this builds. Please help us grow by spreading "
+"the word and letting others know about us."
+msgstr ""
+
+#: Clinical_CMS.php:498
+msgid "We'd really appreciate a review on"
+msgstr ""
+
+#: Clinical_CMS.php:499
+msgid "Or, you could place a review on"
+msgstr ""
+
+#: Clinical_CMS.php:723 Clinical_CMS.php:769 Clinical_CMS.php:806
+#: Clinical_CMS.php:3330 Clinical_CMS.php:3376 Clinical_CMS.php:3413
+msgid "Title for page(will use site title if empty)"
+msgstr ""
+
+#: Clinical_CMS.php:729 Clinical_CMS.php:775 Clinical_CMS.php:812
+#: Clinical_CMS.php:3336 Clinical_CMS.php:3382 Clinical_CMS.php:3419
+msgid "Description for page(will use site title if empty)"
+msgstr ""
+
+#: Clinical_CMS.php:735 Clinical_CMS.php:3342
+msgid ""
+"The ID number from your <a href=\"http://findmyfbid.com/\" target= "
+"\"_external\">Fb profile</a> (will use link from 'Social Profile' settings "
+"if empty)"
+msgstr ""
+
+#: Clinical_CMS.php:741 Clinical_CMS.php:3348
+msgid "Image to be used by Facebook(will use featured image if empty)"
+msgstr ""
+
+#: Clinical_CMS.php:749 Clinical_CMS.php:755 Clinical_CMS.php:3356
+#: Clinical_CMS.php:3362
+msgid ""
+"Full link to Author profile on Facebook(will use link from 'Social Profile' "
+"settings if empty)"
+msgstr ""
+
+#: Clinical_CMS.php:781 Clinical_CMS.php:1774 Clinical_CMS.php:3388
+msgid "Twitter username of publisher(exclude @ symbol)"
+msgstr ""
+
+#: Clinical_CMS.php:787 Clinical_CMS.php:1780 Clinical_CMS.php:3394
+msgid "Twitter username of author(exclude @ symbol)"
+msgstr ""
+
+#: Clinical_CMS.php:793 Clinical_CMS.php:3400
+msgid "Image to be used by Twitter(will use featured image if empty)"
+msgstr ""
+
+#: Clinical_CMS.php:818 Clinical_CMS.php:3425
+msgid "Image to be used by Google+(will use featured image if empty)"
+msgstr ""
+
+#: Clinical_CMS.php:981
+#, php-format
+msgid ""
+"<a href=\"admin.php?page=clinicalwp\">ClinicalWP Core</a>: <span class="
+"\"flag-green\"><span class=\"dashicons dashicons-yes\"></span><strong>%u</"
+"strong> updates applied"
+msgstr ""
+
+#: Clinical_CMS.php:989 Clinical_CMS.php:992
+msgid "<a href=\"admin.php?page=clinicalwp&tab=performance\">"
+msgstr ""
+
+#: Clinical_CMS.php:989 Clinical_CMS.php:992
+msgid "ClinicalWP Data Cache"
+msgstr ""
+
+#: Clinical_CMS.php:989
+msgid "Enabled"
+msgstr ""
+
+#: Clinical_CMS.php:992
+msgid "Disabled!"
+msgstr ""
+
+#: Clinical_CMS.php:1244
+msgid "ClinicalWP - The Ultimate Content Management System."
+msgstr ""
+
+#: Clinical_CMS.php:1245 Clinical_CMS.php:1257
+msgid "General Settings"
+msgstr ""
+
+#: Clinical_CMS.php:1250
+msgid "Welcome to ClinicalWP"
+msgstr ""
+
+#: Clinical_CMS.php:1250
+msgid ""
+"<strong>ClinicalWP</strong> brings the power of WordPress & combines it with "
+"the expert knowledge of Code Clinic's award winning development team to "
+"create the <strong>Ultimate CMS</strong> user experience.</p><p>Tweaks to "
+"core features and settings significantly improve the 'out of box' experience "
+"for novice and expert users alike. In addition to <strong>performance "
+"upgrades</strong>, ClinicalWP brings much needed <strong>security features</"
+"strong>, unrivaled <strong>SEO & Social Media</strong> sharing alongside a "
+"great <strong>new admin experience</strong>, <strong>image optimisation "
+"tools</strong>, <strong>advanced settings</strong>, <strong>maintenance "
+"options</strong>, and much more.</p><p>&nbsp;</p><p>&nbsp;</"
+"p><p><strong>PLEASE NOTE: </strong><br/>The ClinicalWP Toolkit offers a "
+"number of system tweaks that require edits to the WordPress config file ('wp-"
+"config.php') and your Server's '.htacess' file. As such it's strongly "
+"recommended that you make a precautionary backup of your website prior to "
+"making changes."
+msgstr ""
+
+#: Clinical_CMS.php:1255
+msgid "General"
+msgstr ""
+
+#: Clinical_CMS.php:1256
+msgid "Fine tune ClinicalWP to meet your requirements."
+msgstr ""
+
+#: Clinical_CMS.php:1262
+msgid "Housekeeping"
+msgstr ""
+
+#: Clinical_CMS.php:1268
+msgid "Useful settings for keeping the system optimised."
+msgstr ""
+
+#: Clinical_CMS.php:1274
+msgid "Define the max number of revisions WP keeps for each page/post."
+msgstr ""
+
+#: Clinical_CMS.php:1282
+msgid ""
+"Define how often the page/post trash is emptied. Emptying trash regularly "
+"keeps your database smaller. (Value in Days)"
+msgstr ""
+
+#: Clinical_CMS.php:1290
+msgid "How often WordPress should auto-save pages & posts. (Value in seconds)"
+msgstr ""
+
+#: Clinical_CMS.php:1302
+msgid "System Email"
+msgstr ""
+
+#: Clinical_CMS.php:1308
+msgid "Override the default WordPress email address and sender name."
+msgstr ""
+
+#: Clinical_CMS.php:1311
+msgid "Email address"
+msgstr ""
+
+#: Clinical_CMS.php:1313
+msgid "Set the email address used by WordPress"
+msgstr ""
+
+#: Clinical_CMS.php:1314
+msgid "Enter valid email"
+msgstr ""
+
+#: Clinical_CMS.php:1317
+msgid "Email sender name"
+msgstr ""
+
+#: Clinical_CMS.php:1319
+msgid "The senders name to display"
+msgstr ""
+
+#: Clinical_CMS.php:1320
+msgid "eg Company name"
+msgstr ""
+
+#: Clinical_CMS.php:1339
+msgid "Admin Message"
+msgstr ""
+
+#: Clinical_CMS.php:1345
+msgid "Show a message to all logged-in users using the site admin."
+msgstr ""
+
+#: Clinical_CMS.php:1348
+msgid "Display 'Admin' message"
+msgstr ""
+
+#: Clinical_CMS.php:1355
+msgid "'Admin' message type"
+msgstr ""
+
+#: Clinical_CMS.php:1357
+msgid "The message type"
+msgstr ""
+
+#: Clinical_CMS.php:1366
+msgid "'Admin' message"
+msgstr ""
+
+#: Clinical_CMS.php:1369
+msgid "The message text to display"
+msgstr ""
+
+#: Clinical_CMS.php:1370
+msgid "Type your message here"
+msgstr ""
+
+#: Clinical_CMS.php:1380
+msgid "Admin Bar Tweaks"
+msgstr ""
+
+#: Clinical_CMS.php:1386
+msgid "Control the appearance of the Admin bar."
+msgstr ""
+
+#: Clinical_CMS.php:1389
+msgid "Redirect non-admins?"
+msgstr ""
+
+#: Clinical_CMS.php:1391
+msgid "Prevent users from vieweing your WP admin area after logging-in."
+msgstr ""
+
+#: Clinical_CMS.php:1396
+msgid "Hide the 'Admin' bar?"
+msgstr ""
+
+#: Clinical_CMS.php:1398
+msgid "Choose whether to show or hide the admin bar from logged-in non-admins."
+msgstr ""
+
+#: Clinical_CMS.php:1403
+msgid "Remove 'edit profile' link?"
+msgstr ""
+
+#: Clinical_CMS.php:1405
+msgid "Hide the edit profile and dashboard links from 'Admin' bar."
+msgstr ""
+
+#: Clinical_CMS.php:1410
+msgid "Remove 'Comments' link?"
+msgstr ""
+
+#: Clinical_CMS.php:1412
+msgid "Hide comments link from 'Admin' bar if comments are disabled."
+msgstr ""
+
+#: Clinical_CMS.php:1423
+msgid "Pages & Posts"
+msgstr ""
+
+#: Clinical_CMS.php:1429
+msgid "Useful settings relating to the Page & Post editor screens."
+msgstr ""
+
+#: Clinical_CMS.php:1432
+msgid "Set simple paste mode"
+msgstr ""
+
+#: Clinical_CMS.php:1434
+msgid ""
+"Set TinyMCE editor to plain text by default. This options removes hidden "
+"code from MS Office programs etc."
+msgstr ""
+
+#: Clinical_CMS.php:1439
+msgid "Add Featured Image column?"
+msgstr ""
+
+#: Clinical_CMS.php:1441
+msgid ""
+"Add column on the 'view all' pages/posts screen showing which have a "
+"'Featured Image'."
+msgstr ""
+
+#: Clinical_CMS.php:1446
+msgid "Enable ClinicalWP Shortcodes"
+msgstr ""
+
+#: Clinical_CMS.php:1448
+msgid ""
+"Adds a dropdownlist with useful legacy shortcodes to the default page & post "
+"editor. [Deprecated]"
+msgstr ""
+
+#: Clinical_CMS.php:1460
+msgid "Widgets"
+msgstr ""
+
+#: Clinical_CMS.php:1466
+msgid "Allow the use of shortcodes in widgets."
+msgstr ""
+
+#: Clinical_CMS.php:1469
+msgid "Allow Shortcodes"
+msgstr ""
+
+#: Clinical_CMS.php:1484 Clinical_CMS.php:1486
+msgid "Appearance"
+msgstr ""
+
+#: Clinical_CMS.php:1485
+msgid "Customise the look of your site."
+msgstr ""
+
+#: Clinical_CMS.php:1490
+msgid "Frontend custom CSS"
+msgstr ""
+
+#: Clinical_CMS.php:1496
+msgid "Custom CSS rules added here will be applied to the site front-end"
+msgstr ""
+
+#: Clinical_CMS.php:1502
+msgid "CSS and SCSS formats supported"
+msgstr ""
+
+#: Clinical_CMS.php:1513
+msgid "Login screen customisation"
+msgstr ""
+
+#: Clinical_CMS.php:1519
+msgid "Customise the appearance of the login screen."
+msgstr ""
+
+#: Clinical_CMS.php:1522
+msgid "Custom login image"
+msgstr ""
+
+#: Clinical_CMS.php:1524
+msgid "Add your company logo to the login screen."
+msgstr ""
+
+#: Clinical_CMS.php:1529 Clinical_CMS.php:1613
+msgid "Upload image"
+msgstr ""
+
+#: Clinical_CMS.php:1532 Clinical_CMS.php:1616
+msgid "File location"
+msgstr ""
+
+#: Clinical_CMS.php:1534
+msgid "Recommended size: 92px(h) x 292px(w)."
+msgstr ""
+
+#: Clinical_CMS.php:1538
+msgid "Login background colour"
+msgstr ""
+
+#: Clinical_CMS.php:1541
+msgid ""
+"Select a colour for the login screen background. To disable this feature, "
+"simply delete the value field"
+msgstr ""
+
+#: Clinical_CMS.php:1551
+msgid "Admin colour options"
+msgstr ""
+
+#: Clinical_CMS.php:1557
+msgid "Prevent users from changing their admin colour scheme?"
+msgstr ""
+
+#: Clinical_CMS.php:1560
+msgid "Colour scheme options"
+msgstr ""
+
+#: Clinical_CMS.php:1574
+msgid "Admin custom skin"
+msgstr ""
+
+#: Clinical_CMS.php:1580
+msgid "Use the ClinicalWP improved 'Admin' skin?"
+msgstr ""
+
+#: Clinical_CMS.php:1583
+msgid "Use custom skin?"
+msgstr ""
+
+#: Clinical_CMS.php:1597
+msgid "Default User Avatar"
+msgstr ""
+
+#: Clinical_CMS.php:1603
+msgid ""
+"This will create a new user avatar option to select as your site's default."
+msgstr ""
+
+#: Clinical_CMS.php:1606
+msgid "Custom profile image"
+msgstr ""
+
+#: Clinical_CMS.php:1627
+msgid "Featured Images"
+msgstr ""
+
+#: Clinical_CMS.php:1633
+msgid ""
+"When set, any pages/posts missing a featured image will be allocated one "
+"from the relavent collection below. If no images are available, pages/posts "
+"will be saved as 'Drafts' rather than being published. To publish the post "
+"an image will be required."
+msgstr ""
+
+#: Clinical_CMS.php:1636
+msgid "Require Images?"
+msgstr ""
+
+#: Clinical_CMS.php:1645
+msgid ""
+"When a page is published without a 'Featured Image' one is automatically "
+"added from these images."
+msgstr ""
+
+#: Clinical_CMS.php:1651
+msgid ""
+"When a post is published without a 'Featured Image' one is automatically "
+"added from these images."
+msgstr ""
+
+#: Clinical_CMS.php:1692 Clinical_CMS.php:1694
+msgid "S.E.O."
+msgstr ""
+
+#: Clinical_CMS.php:1693
+msgid "Improve Search Engine ranking."
+msgstr ""
+
+#: Clinical_CMS.php:1698
+msgid "Sitemap"
+msgstr ""
+
+#: Clinical_CMS.php:1704
+msgid ""
+"Automatically generate a sitemap of all pages, posts and categories. Also "
+"adds a reference to <strong>"
+msgstr ""
+
+#: Clinical_CMS.php:1707
+msgid "Generate Sitemaps"
+msgstr ""
+
+#: Clinical_CMS.php:1720
+msgid "SEO Meta Tags"
+msgstr ""
+
+#: Clinical_CMS.php:1726
+msgid ""
+"Add SEO fields to the Page / Post edit screens & render as Meta data on your "
+"website."
+msgstr ""
+
+#: Clinical_CMS.php:1729
+msgid "Standard MetaTags"
+msgstr ""
+
+#: Clinical_CMS.php:1731
+msgid "Add SEO Keyword & Description fields to pages & posts."
+msgstr ""
+
+#: Clinical_CMS.php:1736
+msgid "Facebook MetaTags"
+msgstr ""
+
+#: Clinical_CMS.php:1738
+msgid ""
+"Add Facebook OpenGraph fields to pages & posts. Requires 'Standard MetaTags' "
+"to be enabled."
+msgstr ""
+
+#: Clinical_CMS.php:1743
+msgid "Twitter MetaTags"
+msgstr ""
+
+#: Clinical_CMS.php:1745
+msgid ""
+"Add Twitter Card fields to pages & posts. Requires 'Standard MetaTags' to be "
+"enabled."
+msgstr ""
+
+#: Clinical_CMS.php:1750
+msgid "Google+ MetaTags"
+msgstr ""
+
+#: Clinical_CMS.php:1752
+msgid ""
+"Add Google+ fields to pages & posts. Requires 'Standard MetaTags' to be "
+"enabled."
+msgstr ""
+
+#: Clinical_CMS.php:1763
+msgid "Social Media Profiles"
+msgstr ""
+
+#: Clinical_CMS.php:1769
+msgid ""
+"Add your default Twitter credentials, you can override these on individual "
+"pages."
+msgstr ""
+
+#: Clinical_CMS.php:1772
+msgid "Twitter Publisher"
+msgstr ""
+
+#: Clinical_CMS.php:1778
+msgid "Twitter Author"
+msgstr ""
+
+#: Clinical_CMS.php:1785
+msgid ""
+"Add your default Facebook credentials, you can override these on individual "
+"posts."
+msgstr ""
+
+#: Clinical_CMS.php:1788
+msgid "Facebook Admin ID"
+msgstr ""
+
+#: Clinical_CMS.php:1790
+msgid ""
+"The ID number from your <a href=\"http://findmyfbid.com/\" target= "
+"\"_external\">Fb profile</a>"
+msgstr ""
+
+#: Clinical_CMS.php:1794
+msgid "Facebook Publisher"
+msgstr ""
+
+#: Clinical_CMS.php:1796
+msgid "Full link to Publisher profile on Facebook"
+msgstr ""
+
+#: Clinical_CMS.php:1800
+msgid "Facebook Author"
+msgstr ""
+
+#: Clinical_CMS.php:1802
+msgid "Full link to Author profile on Facebook"
+msgstr ""
+
+#: Clinical_CMS.php:1806
+msgid "Facebook AppID"
+msgstr ""
+
+#: Clinical_CMS.php:1808
+msgid "Your Facebook AppID"
+msgstr ""
+
+#: Clinical_CMS.php:1821
+msgid "Image Alt Tags"
+msgstr ""
+
+#: Clinical_CMS.php:1826
+msgid ""
+"Automatically generate SEO rich image alt tags based on post / page data."
+msgstr ""
+
+#: Clinical_CMS.php:1829
+msgid "Auto Generate Tags"
+msgstr ""
+
+#: Clinical_CMS.php:1836
+msgid "Alt Tag Content"
+msgstr ""
+
+#: Clinical_CMS.php:1838
+msgid ""
+"Drag the boxes to create your custom alt tag content and order. To remove "
+"any option from the alt tag simply click the 'eye' icon alongside it."
+msgstr ""
+
+#: Clinical_CMS.php:1857
+msgid "Comment Links"
+msgstr ""
+
+#: Clinical_CMS.php:1863
+msgid ""
+"Open all links and author urls in comments section in a seperate tab, and "
+"add 'nofollow' attribute for SEO purposes."
+msgstr ""
+
+#: Clinical_CMS.php:1866
+msgid "Optimise Comment Links"
+msgstr ""
+
+#: Clinical_CMS.php:1880
+msgid "External Page Links"
+msgstr ""
+
+#: Clinical_CMS.php:1886
+msgid ""
+"Use Javascript to force links to external sites to open in a new tab. If you "
+"use multiple domains for your site, this may cause issues."
+msgstr ""
+
+#: Clinical_CMS.php:1889
+msgid "Optimise external Links"
+msgstr ""
+
+#: Clinical_CMS.php:1904
+msgid "Performance"
+msgstr ""
+
+#: Clinical_CMS.php:1905
+msgid "Increase the speed with which your site loads."
+msgstr ""
+
+#: Clinical_CMS.php:1906
+msgid "PErformance"
+msgstr ""
+
+#: Clinical_CMS.php:1910
+msgid "Browser Caching"
+msgstr ""
+
+#: Clinical_CMS.php:1916
+msgid ""
+"Performs tweaks to the '.htaccess' file to enable browser level file "
+"caching. Alternatively set Cache-Control/Expires headers if mod_deflate is "
+"not installed. We will attempt to make a backup before modifying '.htaccess'."
+msgstr ""
+
+#: Clinical_CMS.php:1919
+msgid "Enable Browser Caching"
+msgstr ""
+
+#: Clinical_CMS.php:1922 Clinical_CMS.php:2009 Clinical_CMS.php:2097
+#: Clinical_CMS.php:2173 Clinical_CMS.php:2193 Clinical_CMS.php:2221
+msgid "(recommended)"
+msgstr ""
+
+#: Clinical_CMS.php:1924 Clinical_CMS.php:2011 Clinical_CMS.php:2223
+#: Clinical_CMS.php:2997
+msgid "None"
+msgstr ""
+
+#: Clinical_CMS.php:1937
+msgid "Data Object Caching"
+msgstr ""
+
+#: Clinical_CMS.php:1943
+msgid "Cache data objects and reduce calls to the Database."
+msgstr ""
+
+#: Clinical_CMS.php:1946
+msgid "Cache Data Objects"
+msgstr ""
+
+#: Clinical_CMS.php:1948
+msgid ""
+"It's recommended that this be temporarily disabled if changing other "
+"settings."
+msgstr ""
+
+#: Clinical_CMS.php:1953
+msgid "Cache Server IP"
+msgstr ""
+
+#: Clinical_CMS.php:1955
+msgid "Enter the IP of the Memcache(d) Server (eg 127.0.0.1)"
+msgstr ""
+
+#: Clinical_CMS.php:1960
+msgid "Cache Server Port"
+msgstr ""
+
+#: Clinical_CMS.php:1962
+msgid "Enter the PORT of the Memcache(d) Server (eg 11211)"
+msgstr ""
+
+#: Clinical_CMS.php:1974
+msgid "Gravatar Caching"
+msgstr ""
+
+#: Clinical_CMS.php:1980
+msgid "Load Gravatar images from a locally created cache."
+msgstr ""
+
+#: Clinical_CMS.php:1983
+msgid "Cache Gravatar Images"
+msgstr ""
+
+#: Clinical_CMS.php:1997
+msgid "ETag header"
+msgstr ""
+
+#: Clinical_CMS.php:2003
+msgid ""
+"Performs tweaks to the '.htaccess' file to remove the ETag. Alternatively "
+"modify the ETag header for greater compatibility. We will attempt to make a "
+"backup before modifying '.htaccess'."
+msgstr ""
+
+#: Clinical_CMS.php:2006
+msgid "Optimise ETag header"
+msgstr ""
+
+#: Clinical_CMS.php:2010 Clinical_CMS.php:2098 Clinical_CMS.php:2099
+msgid "(experimental)"
+msgstr ""
+
+#: Clinical_CMS.php:2024
+msgid "Remove Version Querystrings"
+msgstr ""
+
+#: Clinical_CMS.php:2030
+msgid ""
+"Improve cachability of static resources such as JS & CSS by removing version "
+"id's."
+msgstr ""
+
+#: Clinical_CMS.php:2033
+msgid "Remove Versions"
+msgstr ""
+
+#: Clinical_CMS.php:2047
+msgid "Minify Output HTML / JS / CSS"
+msgstr ""
+
+#: Clinical_CMS.php:2053
+msgid ""
+"Minify the inline html content output for each page, but not referenced "
+"external files. This makes the file size smaller and will reduce page load "
+"times."
+msgstr ""
+
+#: Clinical_CMS.php:2056
+msgid "Enable Minify"
+msgstr ""
+
+#: Clinical_CMS.php:2063 Clinical_CMS.php:2135
+msgid "Ignore Content"
+msgstr ""
+
+#: Clinical_CMS.php:2066
+msgid "Specify inline content type(s) to ignore"
+msgstr ""
+
+#: Clinical_CMS.php:2068
+msgid "Ignore  CSS"
+msgstr ""
+
+#: Clinical_CMS.php:2069
+msgid "Ignore JavaScript"
+msgstr ""
+
+#: Clinical_CMS.php:2070
+msgid "Ignore comments"
+msgstr ""
+
+#: Clinical_CMS.php:2082
+msgid "Load WP core scripts and styles from WordPress.com"
+msgstr ""
+
+#: Clinical_CMS.php:2088
+msgid ""
+"Loading the core WordPress scripts and styles from WordPress.com may improve "
+"site load times for visitors that have these scripts cached. Alternatively "
+"load just JQuery from the Google CDN leaving all other core scripts served "
+"locally. In cases where the WP JQuery version is not available on the CDN "
+"the local JQuery file will be loaded instead.."
+msgstr ""
+
+#: Clinical_CMS.php:2091
+msgid "Script Replacement"
+msgstr ""
+
+#: Clinical_CMS.php:2112
+msgid "Content Delivery Network"
+msgstr ""
+
+#: Clinical_CMS.php:2118
+msgid ""
+"Deliver frontend static content via a CDN or a subdomain (Pseudo CDN) to "
+"improve page load speeds."
+msgstr ""
+
+#: Clinical_CMS.php:2121
+msgid "Use CDN"
+msgstr ""
+
+#: Clinical_CMS.php:2128
+msgid "CDN URL"
+msgstr ""
+
+#: Clinical_CMS.php:2130
+msgid "Enter CDN URL or SUBDOMAIN in full (eg http://subdomain.domain.com)"
+msgstr ""
+
+#: Clinical_CMS.php:2138
+msgid "Specify any content types to ignore"
+msgstr ""
+
+#: Clinical_CMS.php:2140
+msgid "Ignore themes files"
+msgstr ""
+
+#: Clinical_CMS.php:2141
+msgid "Ignore plugin files"
+msgstr ""
+
+#: Clinical_CMS.php:2142
+msgid "Ignore scripts"
+msgstr ""
+
+#: Clinical_CMS.php:2143
+msgid "Ignore styles"
+msgstr ""
+
+#: Clinical_CMS.php:2154
+msgid "Javascript & CSS Optimisations"
+msgstr ""
+
+#: Clinical_CMS.php:2160
+msgid "Optimise the CSS  & JavaScript in your site html."
+msgstr ""
+
+#: Clinical_CMS.php:2163
+msgid "Order scripts & styles"
+msgstr ""
+
+#: Clinical_CMS.php:2167
+msgid "Optimise the order of scripts & styles."
+msgstr ""
+
+#: Clinical_CMS.php:2170
+msgid "Defer / Async JavaScript"
+msgstr ""
+
+#: Clinical_CMS.php:2174
+msgid "(fastest)"
+msgstr ""
+
+#: Clinical_CMS.php:2175 Clinical_CMS.php:2195
+msgid "Default"
+msgstr ""
+
+#: Clinical_CMS.php:2179
+msgid ""
+"Try to add 'defer' or 'async' attribute to all JavaScript loaded (excludes "
+"IE9, JQuery and Admin scripts)."
+msgstr ""
+
+#: Clinical_CMS.php:2182
+msgid "Apply Settings to Inline JavaScripts"
+msgstr ""
+
+#: Clinical_CMS.php:2186
+msgid "Try to apply same 'defer' / 'async' to inline scripts."
+msgstr ""
+
+#: Clinical_CMS.php:2189
+msgid "Move Scripts"
+msgstr ""
+
+#: Clinical_CMS.php:2191
+msgid "Use footer if not using 'defer' option above."
+msgstr ""
+
+#: Clinical_CMS.php:2199
+msgid "Attempt to place all JavaScript in header or footer"
+msgstr ""
+
+#: Clinical_CMS.php:2209
+msgid "GZip File Compression"
+msgstr ""
+
+#: Clinical_CMS.php:2215
+msgid ""
+"Performs tweaks to the '.htaccess' file to enable GZip file compression. "
+"Alternatively try to use php Zlib module to perform compression. We will "
+"attempt to make a backup before modifying '.htaccess'."
+msgstr ""
+
+#: Clinical_CMS.php:2218
+msgid "Enable Compression"
+msgstr ""
+
+#: Clinical_CMS.php:2254 Clinical_CMS.php:2256
+msgid "Images Pro"
+msgstr ""
+
+#: Clinical_CMS.php:2255
+msgid "Advanced image optimisation settings."
+msgstr ""
+
+#: Clinical_CMS.php:2261
+msgid "Server Advice"
+msgstr ""
+
+#: Clinical_CMS.php:2266
+msgid "Recommended libraries"
+msgstr ""
+
+#: Clinical_CMS.php:2277
+msgid "Image Enhancements"
+msgstr ""
+
+#: Clinical_CMS.php:2281
+msgid "Automatic Contrast Leveling?"
+msgstr ""
+
+#: Clinical_CMS.php:2288
+msgid "Automatic Enhance?"
+msgstr ""
+
+#: Clinical_CMS.php:2295
+msgid "Flatten Layers?"
+msgstr ""
+
+#: Clinical_CMS.php:2303
+msgid ""
+"Remove Exif data from JPGs, Colour profile is maintained (requires "
+"ImageMagick PHP library)."
+msgstr ""
+
+#: Clinical_CMS.php:2306
+msgid "Remove Exif Data?"
+msgstr ""
+
+#: Clinical_CMS.php:2314
+msgid "Optimise JPGs for web."
+msgstr ""
+
+#: Clinical_CMS.php:2317
+msgid "Progressive JPG?"
+msgstr ""
+
+#: Clinical_CMS.php:2325
+msgid ""
+"Use slow / cpu intensive GD compression method (requires PHP GD library)."
+msgstr ""
+
+#: Clinical_CMS.php:2328
+msgid "Use GD Compression?"
+msgstr ""
+
+#: Clinical_CMS.php:2336
+msgid "Reduce png file sizes (requires PNGQuant library)."
+msgstr ""
+
+#: Clinical_CMS.php:2339
+msgid "Compress PNGs?"
+msgstr ""
+
+#: Clinical_CMS.php:2347
+msgid "Make images look sharper (requires ImageMagick PHP library)."
+msgstr ""
+
+#: Clinical_CMS.php:2350
+msgid "Sharpen Images?"
+msgstr ""
+
+#: Clinical_CMS.php:2363
+msgid "Advanced User Settings"
+msgstr ""
+
+#: Clinical_CMS.php:2368
+msgid "Set values for unsharp mask (requires ImageMagick PHP library)."
+msgstr ""
+
+#: Clinical_CMS.php:2371
+msgid "Unsharp Mask - Radius"
+msgstr ""
+
+#: Clinical_CMS.php:2381
+msgid "Unsharp Mask - Sigma"
+msgstr ""
+
+#: Clinical_CMS.php:2391
+msgid "Unsharp Mask - Sharpening"
+msgstr ""
+
+#: Clinical_CMS.php:2401
+msgid "Unsharp Mask - Threshold"
+msgstr ""
+
+#: Clinical_CMS.php:2412
+msgid "Set JPG compression level (requires Imagick PHP library)."
+msgstr ""
+
+#: Clinical_CMS.php:2415
+msgid "Imagick JPG Compression"
+msgstr ""
+
+#: Clinical_CMS.php:2426
+msgid "Set GIF compression level (requires Imagick PHP library)."
+msgstr ""
+
+#: Clinical_CMS.php:2429
+msgid "Imagick GIF Compression"
+msgstr ""
+
+#: Clinical_CMS.php:2440
+msgid ""
+"Set GD image quality for JPG (requires PHP GD library). Higher quality = "
+"bigger file size."
+msgstr ""
+
+#: Clinical_CMS.php:2443
+msgid "GD JPEG Quality"
+msgstr ""
+
+#: Clinical_CMS.php:2454
+msgid ""
+"Set GD PNG compression level (requires PHP GD library). Higher compression "
+"levels may cause issues."
+msgstr ""
+
+#: Clinical_CMS.php:2457
+msgid "GD PNG Compression"
+msgstr ""
+
+#: Clinical_CMS.php:2475
+msgid "Image Backups"
+msgstr ""
+
+#: Clinical_CMS.php:2480
+msgid ""
+"Whenever an image is manipulated via the 'Media Library', a backup is "
+"created. This uses additional disk space and has a cumulative impact on the "
+"Database performance."
+msgstr ""
+
+#: Clinical_CMS.php:2483
+msgid "Cleanup Image Edits"
+msgstr ""
+
+#: Clinical_CMS.php:2485
+msgid "Keep only one set of image edits and remove these on image restore."
+msgstr ""
+
+#: Clinical_CMS.php:2497
+msgid "Uploaded Images"
+msgstr ""
+
+#: Clinical_CMS.php:2502
+msgid ""
+"WordPress keeps a full size unoptimised copy of every image uploaded. Crop "
+"these images to a useable size and save disk space."
+msgstr ""
+
+#: Clinical_CMS.php:2505
+msgid "Optimise Image"
+msgstr ""
+
+#: Clinical_CMS.php:2512
+msgid "Maximum Height"
+msgstr ""
+
+#: Clinical_CMS.php:2522
+msgid "Maximum Width"
+msgstr ""
+
+#: Clinical_CMS.php:2532
+msgid "Image Quality"
+msgstr ""
+
+#: Clinical_CMS.php:2549
+msgid "Image Tools Extension"
+msgstr ""
+
+#: Clinical_CMS.php:2554 Clinical_CMS.php:2771 Clinical_CMS.php:2870
+msgid "Notice"
+msgstr ""
+
+#: Clinical_CMS.php:2556
+msgid ""
+"<h1>ClinicalWP Extension: Images Pro, Not Installed!</h1><p>You are missing "
+"out on more than 20 image optimisations, that make your site load faster, "
+"look great, and save you money.</p>"
+msgstr ""
+
+#: Clinical_CMS.php:2564
+msgid "Security / Firewall"
+msgstr ""
+
+#: Clinical_CMS.php:2565
+msgid "Secure Your Site."
+msgstr ""
+
+#: Clinical_CMS.php:2566 Clinical_CMS.php:3436
+msgid "Login Security"
+msgstr ""
+
+#: Clinical_CMS.php:2571
+msgid "System Hardening"
+msgstr ""
+
+#: Clinical_CMS.php:2576
+msgid ""
+"Make your site more secure by reducing the options for hackers to cause "
+"damage."
+msgstr ""
+
+#: Clinical_CMS.php:2579
+msgid "Force Admin SSL"
+msgstr ""
+
+#: Clinical_CMS.php:2581
+msgid ""
+"Force all admin traffic over a secure SSL connection [<a href=\"https://"
+"codex.wordpress.org/Administration_Over_SSL\" target=\"_external\" title="
+"\"WordPress Codex\">More info</a>]."
+msgstr ""
+
+#: Clinical_CMS.php:2586
+msgid "Lock Admin Editors"
+msgstr ""
+
+#: Clinical_CMS.php:2588
+msgid "Prevents editing of Plugins & Themes via the admin based editors."
+msgstr ""
+
+#: Clinical_CMS.php:2593
+msgid "File Modification"
+msgstr ""
+
+#: Clinical_CMS.php:2595
+msgid ""
+"Prevents updates & installation of Plugins & Themes via the admin area. When "
+"enabled, the 'Lock Files & Themes Editor' option will also be activated."
+msgstr ""
+
+#: Clinical_CMS.php:2606
+msgid "Site Verification"
+msgstr ""
+
+#: Clinical_CMS.php:2611
+msgid ""
+"Perform weekly checks against 3rd Party tools to verify your site status. "
+"Results will be shown on your <a href=\"/wp-admin\" title=\"Go to dashboard"
+"\">Admin Dashboard</a> under the At A Glance panel."
+msgstr ""
+
+#: Clinical_CMS.php:2614
+msgid "Google Safe Browsing"
+msgstr ""
+
+#: Clinical_CMS.php:2616
+msgid ""
+"Google’s Safe Browsing technology examines billions of URLs per day looking "
+"for unsafe websites."
+msgstr ""
+
+#: Clinical_CMS.php:2621
+msgid "Securi SiteCheck"
+msgstr ""
+
+#: Clinical_CMS.php:2634
+msgid "Brute Force Login Protection"
+msgstr ""
+
+#: Clinical_CMS.php:2639
+msgid ""
+"Brute Force Hacks use automated tools to try and login to your site by using "
+"lots of username / password combinations in a short time. This extension "
+"detects failed logins and temporarily blocks those IP's used by the "
+"attacker. This slows down the hackers and potentially blocks valid passwords "
+"from being used."
+msgstr ""
+
+#: Clinical_CMS.php:2645
+msgid "The number of failed attempts before IP is blocked."
+msgstr ""
+
+#: Clinical_CMS.php:2654
+msgid "How long the IP should be locked out (mins)"
+msgstr ""
+
+#: Clinical_CMS.php:2663
+msgid "If failed logins continue, lock IP after another X lockouts"
+msgstr ""
+
+#: Clinical_CMS.php:2672
+msgid ""
+"How long the IP should be locked out after further failed attempts (hours)"
+msgstr ""
+
+#: Clinical_CMS.php:2681
+msgid "Failed login counter will be reset after this time period (hours)"
+msgstr ""
+
+#: Clinical_CMS.php:2709
+msgid "Network Reporting"
+msgstr ""
+
+#: Clinical_CMS.php:2711
+msgid ""
+"Level 2 Lockouts are reported to your webserver to create a database of high "
+"risk IP's. The server can then pro-actively block these IP's from accessing "
+"all sites hosted on the server. Learn more via our blog post: <a href="
+"\"xxxxxxxxxxx\">Network Level Security</a>"
+msgstr ""
+
+#: Clinical_CMS.php:2716
+msgid "Auto Reset Logs"
+msgstr ""
+
+#: Clinical_CMS.php:2718
+msgid ""
+"Automatically delete local logs every 90 days. Recommended if you have lots "
+"of failed logins."
+msgstr ""
+
+#: Clinical_CMS.php:2730
+msgid "User Account Monitor"
+msgstr ""
+
+#: Clinical_CMS.php:2735
+msgid ""
+"Track creation of new users and the latest successfull logins of registered "
+"<a href=\"users.php\">user accounts</a>."
+msgstr ""
+
+#: Clinical_CMS.php:2738
+msgid "Display Registration Date"
+msgstr ""
+
+#: Clinical_CMS.php:2745
+msgid "Display Last Login"
+msgstr ""
+
+#: Clinical_CMS.php:2752 Clinical_CMS.php:2794
+msgid "Email Notification"
+msgstr ""
+
+#: Clinical_CMS.php:2766
+msgid "Security Extension"
+msgstr ""
+
+#: Clinical_CMS.php:2773
+msgid ""
+"<h1>ClinicalWP Extension: Security Pro, Not Installed!</h1><p>You are "
+"missing out on crucial security features, that make your site safer, protect "
+"your reputation, and potentially save you money.</p>"
+msgstr ""
+
+#: Clinical_CMS.php:2779 Clinical_CMS.php:2781
+msgid "SPAM Guard"
+msgstr ""
+
+#: Clinical_CMS.php:2780
+msgid "Adds extra layers of SPAM protection to WordPress."
+msgstr ""
+
+#: Clinical_CMS.php:2786
+msgid "SPAM Protection"
+msgstr ""
+
+#: Clinical_CMS.php:2791
+msgid ""
+"Prevent spambots from leaving fake comments, which can make your site appear "
+"to be low quality, untrustworthy and of little value to your audience."
+msgstr ""
+
+#: Clinical_CMS.php:2796
+msgid ""
+"Send an email to the site admin whenever a spam comment is blocked. Not "
+"recommended on high traffic sites."
+msgstr ""
+
+#: Clinical_CMS.php:2801
+msgid "Log Rejections"
+msgstr ""
+
+#: Clinical_CMS.php:2803
+msgid ""
+"Rejected comments will be logged to your wp-content {or equivalent} folder."
+msgstr ""
+
+#: Clinical_CMS.php:2808
+msgid "Trackbacks"
+msgstr ""
+
+#: Clinical_CMS.php:2810
+msgid ""
+"Prevents trackbacks from being registered, but leaves pingbacks active [<a "
+"href=\"http://web-profile.net/web/trackback-vs-pingback/\" target=\"_external"
+"\" title=\"Trackbacks v Pingbacks\">More info</a>]."
+msgstr ""
+
+#: Clinical_CMS.php:2821
+msgid "Comments Blacklist"
+msgstr ""
+
+#: Clinical_CMS.php:2826
+msgid ""
+"Use a blacklist of common SPAM terms, to identify and block SPAM comments "
+"from being posted to your site."
+msgstr ""
+
+#: Clinical_CMS.php:2829
+msgid "Automatic Updates"
+msgstr ""
+
+#: Clinical_CMS.php:2831
+msgid ""
+"Automatically check for updates to the master blacklist, and download when "
+"new SPAM keywords are added."
+msgstr ""
+
+#: Clinical_CMS.php:2839
+msgid "ClinicalWP Blacklist [Recommended]"
+msgstr ""
+
+#: Clinical_CMS.php:2840
+msgid "SPLORP Extensive Blacklist"
+msgstr ""
+
+#: Clinical_CMS.php:2843
+msgid ""
+"SPLORP Extensive Blacklist is only suitable for sites experiencing a high "
+"volume of SPAM comments."
+msgstr ""
+
+#: Clinical_CMS.php:2850
+msgid "Send blacklisted comments to moderation [Recommended]"
+msgstr ""
+
+#: Clinical_CMS.php:2851
+msgid "Send blacklisted comments to trash"
+msgstr ""
+
+#: Clinical_CMS.php:2854
+msgid ""
+"Choose what to do with comments containing keywords found in the blacklist."
+msgstr ""
+
+#: Clinical_CMS.php:2865
+msgid "SPAM Extension"
+msgstr ""
+
+#: Clinical_CMS.php:2872
+msgid ""
+"<h1>ClinicalWP Extension: SPAM Guard Pro, Not Installed!</h1><p>You are "
+"missing out on beneficial anti-spam features, that make your site safer & "
+"easier to read, protect your reputation, and potentially save you money.</p>"
+msgstr ""
+
+#: Clinical_CMS.php:2878 Clinical_CMS.php:2880
+msgid "Advanced"
+msgstr ""
+
+#: Clinical_CMS.php:2879
+msgid "Options for developers and advanced users."
+msgstr ""
+
+#: Clinical_CMS.php:2883
+msgid "System Memory"
+msgstr ""
+
+#: Clinical_CMS.php:2888
+msgid "Tweak the memory available to your website."
+msgstr ""
+
+#: Clinical_CMS.php:2894
+msgid ""
+"Set the Memory Limit for WordPress. Your Server Level Settings may override "
+"this. (Value in MB)"
+msgstr ""
+
+#: Clinical_CMS.php:2903
+msgid ""
+"Set the Memory Limit for WordPress Admin Dashboard. Your Server Level "
+"Settings may override this. (Value in MB)"
+msgstr ""
+
+#: Clinical_CMS.php:2914
+msgid "System Updates & Modifications"
+msgstr ""
+
+#: Clinical_CMS.php:2919
+msgid "Control how your website handles updates and modifications."
+msgstr ""
+
+#: Clinical_CMS.php:2922
+msgid "Core Updates"
+msgstr ""
+
+#: Clinical_CMS.php:2926
+msgid "No Updates"
+msgstr ""
+
+#: Clinical_CMS.php:2927
+msgid "Minor Updates"
+msgstr ""
+
+#: Clinical_CMS.php:2928
+msgid "All Updates"
+msgstr ""
+
+#: Clinical_CMS.php:2932
+msgid "Set the Core Update method."
+msgstr ""
+
+#: Clinical_CMS.php:2935
+msgid "Auto Plugin Updates"
+msgstr ""
+
+#: Clinical_CMS.php:2937
+msgid "Update all plugins automatically. (Use with caution)"
+msgstr ""
+
+#: Clinical_CMS.php:2942
+msgid "Auto Theme Updates"
+msgstr ""
+
+#: Clinical_CMS.php:2944
+msgid "Update all themes automatically. (Use with caution)"
+msgstr ""
+
+#: Clinical_CMS.php:2956
+msgid "Email Server"
+msgstr ""
+
+#: Clinical_CMS.php:2962
+msgid ""
+"Override the default WordPress localhost email server. Use these settings to "
+"route emails via your company email server or trusted 3rd parties such as "
+"SendGrid."
+msgstr ""
+
+#: Clinical_CMS.php:2965 Clinical_CMS.php:2986
+msgid "SMTP Auth"
+msgstr ""
+
+#: Clinical_CMS.php:2967
+msgid "Use the following settings to send email"
+msgstr ""
+
+#: Clinical_CMS.php:2972
+msgid "Host"
+msgstr ""
+
+#: Clinical_CMS.php:2974
+msgid "The email server hostname"
+msgstr ""
+
+#: Clinical_CMS.php:2975
+msgid "Enter valid hostname"
+msgstr ""
+
+#: Clinical_CMS.php:2978
+msgid "Port"
+msgstr ""
+
+#: Clinical_CMS.php:2980
+msgid "The server port"
+msgstr ""
+
+#: Clinical_CMS.php:2981
+msgid "Enter valid port"
+msgstr ""
+
+#: Clinical_CMS.php:2988
+msgid "Validate the account credentials"
+msgstr ""
+
+#: Clinical_CMS.php:2993
+msgid "Security"
+msgstr ""
+
+#: Clinical_CMS.php:2995
+msgid "Connection security type"
+msgstr ""
+
+#: Clinical_CMS.php:2998
+msgid "SSL"
+msgstr ""
+
+#: Clinical_CMS.php:2999
+msgid "TLS (recommended)"
+msgstr ""
+
+#: Clinical_CMS.php:3005
+msgid "Username"
+msgstr ""
+
+#: Clinical_CMS.php:3007
+msgid "The email account username"
+msgstr ""
+
+#: Clinical_CMS.php:3008
+msgid "Enter valid username"
+msgstr ""
+
+#: Clinical_CMS.php:3011
+msgid "Password"
+msgstr ""
+
+#: Clinical_CMS.php:3013
+msgid "The email account password"
+msgstr ""
+
+#: Clinical_CMS.php:3014
+msgid "Enter valid password"
+msgstr ""
+
+#: Clinical_CMS.php:3025
+msgid "Delay RSS Feed"
+msgstr ""
+
+#: Clinical_CMS.php:3031
+msgid ""
+"Delay new posts and pages from shoing in your RSS & Atom feeds. Use to to "
+"provide a pariod of exclusivity or just to give yourself time to check for "
+"typos and bad links."
+msgstr ""
+
+#: Clinical_CMS.php:3034
+msgid "Enable Delay"
+msgstr ""
+
+#: Clinical_CMS.php:3044
+msgid ""
+"How long should we wait before showing new posts / pages (Value in Hours)."
+msgstr ""
+
+#: Clinical_CMS.php:3057
+msgid "Custom Excerpt Length"
+msgstr ""
+
+#: Clinical_CMS.php:3063
+msgid ""
+"Set a custom length for the excerpts of pages and posts to replace the "
+"WordPress default length of 55 words."
+msgstr ""
+
+#: Clinical_CMS.php:3066
+msgid "Enable Custom Excerpt Length"
+msgstr ""
+
+#: Clinical_CMS.php:3076
+msgid "(Value in words)"
+msgstr ""
+
+#: Clinical_CMS.php:3089
+msgid "Sitewide Searches"
+msgstr ""
+
+#: Clinical_CMS.php:3095
+msgid "Restrict which post types are listed in on-site search results."
+msgstr ""
+
+#: Clinical_CMS.php:3098
+msgid "Hide Posts Types"
+msgstr ""
+
+#: Clinical_CMS.php:3101
+msgid "Select which post types to hide from search results."
+msgstr ""
+
+#: Clinical_CMS.php:3111
+msgid "Ping & Trackback"
+msgstr ""
+
+#: Clinical_CMS.php:3117
+msgid ""
+"Ignore pingbacks from this site that link back to other pages on this same "
+"site."
+msgstr ""
+
+#: Clinical_CMS.php:3120
+msgid "Ignore Self Pingbacks"
+msgstr ""
+
+#: Clinical_CMS.php:3136 Clinical_CMS.php:3138
+msgid "Maintenance"
+msgstr ""
+
+#: Clinical_CMS.php:3137
+msgid "Repair & Optimise your ClinicalWP (WordPress) installation."
+msgstr ""
+
+#: Clinical_CMS.php:3142
+msgid "Database"
+msgstr ""
+
+#: Clinical_CMS.php:3147
+msgid ""
+"It's highly recommended that you disable this option after use. Making a "
+"backup, would also be a wise thing to do prior to doing a repair/optimise."
+msgstr ""
+
+#: Clinical_CMS.php:3150
+msgid "Enable Maintenance Mode"
+msgstr ""
+
+#: Clinical_CMS.php:3157
+msgid "Proceed to the maintenance system (opens in a new browser tab)"
+msgstr ""
+
+#: Clinical_CMS.php:3167
+msgid "Options Data"
+msgstr ""
+
+#: Clinical_CMS.php:3172
+msgid ""
+"To view/edit the contents of the WordPress 'Options' table <a  href=\"/wp-"
+"admin/options.php\" target=\"_external\">click here</a>."
+msgstr ""
+
+#: Clinical_CMS.php:3431
+msgid "Failed Logins"
+msgstr ""
+
+#: Clinical_CMS.php:3437
+msgid "Blocked Login Attempts"
+msgstr ""
+
+#: Clinical_CMS.php:3438 Clinical_CMS.php:3634
+msgid "Email Harvesting Protection"
+msgstr ""
+
+#: Clinical_CMS.php:3442
+msgid ""
+"The following attempts to login to your site have been prevented by Clinical "
+"Login Security based on your settings. The logs identify the username used "
+"to attempt to login and may not be a valid username for your site. The "
+"associated IP is that linked to the visitor, however hackers typically use "
+"methods to hide their real IP."
+msgstr ""
+
+#: Clinical_CMS.php:3445 Clinical_CMS.php:3472 Clinical_CMS.php:3485
+msgid "Security Log"
+msgstr ""
+
+#: Clinical_CMS.php:3453
+msgid "Reset Security Logs"
+msgstr ""
+
+#: Clinical_CMS.php:3459
+msgid "Video Tutorials"
+msgstr ""
+
+#: Clinical_CMS.php:3464 Clinical_CMS.php:3497
+msgid "Deutsch"
+msgstr ""
+
+#: Clinical_CMS.php:3465 Clinical_CMS.php:3478 Clinical_CMS.php:3498
+#: Clinical_CMS.php:3511
+msgid "ClinicalWP User Guides"
+msgstr ""
+
+#: Clinical_CMS.php:3469
+msgid ""
+"Unsere kurzen ClinicalWP Video Guides zeigen Ihnen, wie Sie oben auf Ihrer "
+"Website bleiben, problemlos."
+msgstr ""
+
+#: Clinical_CMS.php:3477 Clinical_CMS.php:3510
+msgid "English"
+msgstr ""
+
+#: Clinical_CMS.php:3482
+msgid ""
+"Our short ClinicalWP Video Guides show you how to keep on top of your "
+"website, hassle free."
+msgstr ""
+
+#: Clinical_CMS.php:3492
+msgid "WordPress Manual"
+msgstr ""
+
+#: Clinical_CMS.php:3505 Clinical_CMS.php:3518
+msgid "User Guide"
+msgstr ""
+
+#: Clinical_CMS.php:3532
+msgid "Debug Info"
+msgstr ""
+
+#: Clinical_CMS.php:3533
+msgid ""
+"You may be asked to submit this info to aid your support ticket resolution."
+msgstr ""
+
+#: Clinical_CMS.php:3534
+msgid "Debug Information"
+msgstr ""
+
+#: Clinical_CMS.php:3537
+msgid "Memcache(d) Stats"
+msgstr ""
+
+#: Clinical_CMS.php:3559
+msgid "Popular"
+msgstr ""
+
+#: Clinical_CMS.php:3560
+msgid "Remove the 'Nag Notices' from the admin screens"
+msgstr ""
+
+#: Clinical_CMS.php:3564
+msgid ""
+"Many plugins add an annoying 'Nag Notice' to the WordPress admin screens, "
+"asking you to register the plugin, buy addons or upgrade. Use the options "
+"below to turn off some of these from most popular plugins."
+msgstr ""
+
+#: Clinical_CMS.php:3576
+msgid "Visual Composer"
+msgstr ""
+
+#: Clinical_CMS.php:3592
+msgid "WooThemes"
+msgstr ""
+
+#: Clinical_CMS.php:3594
+msgid "WooCommerce / WooThemes update notifications"
+msgstr ""
+
+#: Clinical_CMS.php:3599
+msgid "Revolution Slider"
+msgstr ""
+
+#: Clinical_CMS.php:3606
+msgid "BackupBuddy"
+msgstr ""
+
+#: Clinical_CMS.php:3613
+msgid "TGMPA"
+msgstr ""
+
+#: Clinical_CMS.php:3615
+msgid ""
+"Used for required and recommended plugins notifications [Not Recommended]"
+msgstr ""
+
+#: Clinical_CMS.php:3632
+msgid "Anti Spam & Security"
+msgstr ""
+
+#: Clinical_CMS.php:3633
+msgid "Add additional security and anti-spam features to your site."
+msgstr ""
+
+#: Clinical_CMS.php:3638
+msgid ""
+"Use a shortcode to display email addresses that are safe from email "
+"collecting spambots. The shortocde formats email addresses using specially "
+"encoded text. This means that your email links are still clickable and look "
+"like real email addresses. However, they will be meaningless to the "
+"programmes that search websites looking for email address to add to spam "
+"mailoing lists."
+msgstr ""
+
+#: Clinical_CMS.php:3641
+msgid "Usage"
+msgstr ""
+
+#: Clinical_CMS.php:3667
+msgctxt "Internet address"
+msgid "IP"
+msgstr ""
+
+#: Clinical_CMS.php:3667
+msgid "Tried to log in as"
+msgstr ""
+
+#: Clinical_CMS.php:3672
+#, php-format
+msgid "%d lockout"
+msgid_plural "%d lockouts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Clinical_CMS.php:3692
+msgid "Success!"
+msgstr ""
+
+#: Clinical_CMS.php:3694
+msgid "Failed!"
+msgstr ""
+
+#: Clinical_CMS.php:4034
+#, php-format
+msgid "Welcome to ClinicalWP %s"
+msgstr ""
+
+#: Clinical_CMS.php:4035
+msgid ""
+"Introducing the World's most popular CMS, enhanced with tweaks, "
+"optimisations, improved ease of use, and many completely new features!"
+msgstr ""
+
+#: Clinical_CMS.php:4038
+msgid "Get Started"
+msgstr ""
+
+#: Clinical_CMS.php:4039
+msgid "Watch Video Tutorials (Beta!)"
+msgstr ""
+
+#: Clinical_CMS.php:4040
+msgid "Read The Manual (Coming Soon!)"
+msgstr ""
+
+#: Clinical_CMS.php:4043
+msgid "Next Steps"
+msgstr ""
+
+#: Clinical_CMS.php:4045
+msgid "Write your first blog post"
+msgstr ""
+
+#: Clinical_CMS.php:4046
+msgid "Add an new page"
+msgstr ""
+
+#: Clinical_CMS.php:4047
+msgid "View your site"
+msgstr ""
+
+#: Clinical_CMS.php:4051
+msgid "More Actions"
+msgstr ""
+
+#: Clinical_CMS.php:4053
+msgid "ClinicalWP: Optimise Your Site"
+msgstr ""
+
+#: Clinical_CMS.php:4054
+msgid "Manage"
+msgstr ""
+
+#: Clinical_CMS.php:4054
+msgid "or"
+msgstr ""
+
+#: Clinical_CMS.php:4054
+msgid "menus"
+msgstr ""
+
+#: Clinical_CMS.php:4055
+msgid "Turn comments on or off"
+msgstr ""
+
+#: Clinical_CMS.php:4119
+msgid "Thanks for being an awesome client!"
+msgstr ""
+
+#: Clinical_CMS.php:4119
+#, php-format
+msgid ""
+"If you like what we've created for you please join <strong>Code Clinic "
+"KreativAgentur</strong> on %s or leave a review for us on %s."
+msgstr ""
+
+#: Clinical_CMS.php:4291
+#, php-format
+msgid "<!--Welcome To -->ClinicalWP %s %s "
+msgstr ""
+
+#: Clinical_CMS.php:4291
+#, php-format
+msgid "enhancing WordPress %s"
+msgstr ""
+
+#: Clinical_CMS.php:4348
+msgid "ClinicalWP"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: Clinical_CMS.php:4349
+msgid "http://codeclinic.de"
+msgstr ""
+
+#: Clinical_CMS.php:4364
+msgid "Code Clinic KreativAgentur"
+msgstr ""
+
+#: Clinical_CMS.php:4365
+msgid "https://codeclinic.de"
+msgstr ""
+
+#: includes/appearance.php:42
+msgid "Powered By Clinical CMS"
+msgstr ""
+
+#: includes/cron-schedules.php:7
+msgid "Every 7 Days (Weekly)"
+msgstr ""
+
+#: includes/cron-schedules.php:11
+msgid "Every 30 Days (Monthly)"
+msgstr ""
+
+#: includes/cron-schedules.php:15
+msgid "Every 90 Days (Quarterly)"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:393
+#: includes/tgmpa/class-tgm-plugin-activation.php:920
+#: includes/tgmpa/class-tgm-plugin-activation.php:2626
+#: includes/tgmpa/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:394
+#: includes/tgmpa/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:395
+#: includes/tgmpa/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1027
+#: includes/tgmpa/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:1214
+#: includes/tgmpa/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3602
+#: includes/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3602
+#: includes/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/tgmpa/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: titan-framework-checker.php:72
+msgid "Titan Framework needs to be installed."
+msgstr ""
+
+#: titan-framework-checker.php:75
+msgid "Click here to search for the plugin."
+msgstr ""
+
+#: titan-framework-checker.php:82
+msgid "Titan Framework needs to be activated."
+msgstr ""
+
+#: titan-framework-checker.php:85
+msgid "Click here to go to the plugins page and activate it."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ClinicalWP Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://codeclinic.de/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Plugin for implementing ClinicalWP core customisations including; Speed "
+"Enhancements, Increased Security, Image Enhancements, Support Panels and "
+"much more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Code Clinic InternetAgentur"
+msgstr ""

@@ -1,0 +1,84 @@
+/* Top Bar */
+#wpadminbar {
+	background: none repeat scroll 0 0 #000000;
+	font: 400 13px/32px "Open Sans",sans-serif;
+}
+/* Side Bar */
+/*
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+	background-color: #000000;
+}
+*/
+/* Side Bar Selected Header */
+/*
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+	background: none repeat scroll 0 0 #2ea2cc;
+}
+*/
+/* Side Bar Selected Menu Options * /
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu.sub-open, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu a.wp-has-current-submenu:focus + .wp-submenu, .no-js li.wp-has-current-submenu:hover .wp-submenu {
+	/*background-color: black;* /
+	margin-left:15px;
+}
+*/
+/* Replace The Small WP Logo In Admin Bar */
+/* #header-logo { background-image: url("/wp-content/themes/CherryFramework/clinical_custom/clinical_custom/logo.png") !important; } */
+
+/* Add Code Clinic RainFall Logos */
+/*
+#wpbody {
+background-image: url("/wp-content/themes/CherryFramework/clinical_custom/background-corner.png");
+background-repeat: no-repeat;
+margin-left: 0;
+padding-top: 115px;
+}
+*/
+/* Admin Bar Top Custom Menu - Clinical CMS Top Menu * /
+#wp-admin-bar-clinical-menu .ab-icon:before{
+	font-family: "dashicons" !important;
+	content: "\f348" !important;
+	vertical-align:bottom;
+}
+*/
+/*
+.wp-has-current-submenu .wp-submenu.wp-submenu-wrap {
+	border-bottom: 1px dashed;
+}
+*/
+/*
+#wpsupport_dashboard_widget .inside .main, #wp_dashboard_widget .inside .main{
+	overflow: hidden !important;
+	padding: 0 12px 11px !important;
+}
+*/
+
+/* IMPROVE WP EDITOR VISIBILITY WITH SLATE THEME */
+.wp-editor-area {
+  border: 1px solid #ddd !important;
+}
+
+/* REMOVE TITAN FRAMEWORK FOOTER NOTE */
+#wpfooter p#footer-left em {
+    display: none !important;
+}
+
+/* SLATE ADMIN THEME STYLING FIXES * /
+#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu .current div.wp-menu-image::before, #adminmenu .wp-has-current-submenu div.wp-menu-image::before, #adminmenu a.current:hover div.wp-menu-image::before, #adminmenu a.wp-has-current-submenu:hover div.wp-menu-image::before, #adminmenu li.wp-has-current-submenu:hover div.wp-menu-image::before {
+	color: orange;
+}
+#normal-sortables .postbox .inside {
+	padding: 0 12px 12px;
+}
+#wp-admin-bar-WPML_ALS div.ab-item.ab-empty-item{
+	padding:14px 10px 15px;
+}
+.folded #wp-admin-bar-WPML_ALS div.ab-item.ab-empty-item{
+	padding: 2px 7px;
+}
+#wpadminbar .ab-submenu .ab-item, #wpadminbar .quicklinks .menupop ul li a, #wpadminbar .quicklinks .menupop ul li a strong, #wpadminbar .quicklinks .menupop.hover ul li a, #wpadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: #2ea2cc;
+}
+.folded #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+  background: none repeat scroll 0 0 orange !important;
+}
+*/

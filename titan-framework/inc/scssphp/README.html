@@ -1,0 +1,32 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 id="scssphp-v0-0-15">scssphp v0.0.15</h1>
+<h3 id="http-leafo-net-scssphp"><a href="http://leafo.net/scssphp">http://leafo.net/scssphp</a></h3>
+<p><a href="http://travis-ci.org/leafo/scssphp"><img src="https://secure.travis-ci.org/leafo/scssphp.png" alt="Build Status"></a></p>
+<p><code>scssphp</code> is a compiler for SCSS written in PHP.</p>
+<p>It implements SCSS 3.2.12. It does not implement the SASS syntax, only the SCSS
+syntax.</p>
+<p>Checkout the homepage, <a href="http://leafo.net/scssphp">http://leafo.net/scssphp</a>, for directions on how to use.</p>
+<h2 id="running-tests">Running Tests</h2>
+<p><code>scssphp</code> uses <a href="https://github.com/sebastianbergmann/phpunit">PHPUnit</a> for testing.</p>
+<p>Run the following command from the root directory to run every test:</p>
+<pre><code>phpunit tests
+</code></pre><p>There are two kinds of tests in the <code>tests/</code> directory:</p>
+<ul>
+<li><code>ApiTest.php</code> contains various unit tests that test the PHP interface.</li>
+<li><code>ExceptionTest.php</code> contains unit tests that test for exceptions thrown by the parser and compiler.</li>
+<li><code>InputTest.php</code> compiles every <code>.scss</code> file in the <code>tests/inputs</code> directory
+then compares to the respective <code>.css</code> file in the <code>tests/outputs</code> directory.</li>
+</ul>
+<p>When changing any of the tests in <code>tests/inputs</code>, the tests will most likely
+fail because the output has changed. Once you verify that the output is correct
+you can run the following command to rebuild all the tests:</p>
+<pre><code>BUILD=true phpunit tests
+</code></pre><p>This will compile all the tests, and save results into <code>tests/outputs</code>.</p>
+
+      </body>
+    </html>

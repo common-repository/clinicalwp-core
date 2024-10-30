@@ -1,0 +1,51 @@
+//$base-color: #69A8BB;
+//$highlight-color: #5EF5D9;
+//$notification-color: #FF8D3B;
+//$action-color: #f47920;
+
+$base-color: #26292C;
+$highlight-color: #2EE3F5;
+$notification-color: #FF8D3B;
+$action-color: #f47920;
+
+$white: #fff;
+
+// global
+
+//$link: $base-color;
+//$link-focus: #0098A7;
+$link: #f47920;
+$link-focus: #20E1F4;
+
+$button-color: lighten( $action-color, 10% );
+
+// admin menu & admin-bar
+
+$menu-text: $white;
+$menu-icon: $white;
+//$menu-background: #353535;
+$menu-background: #363B3F;
+
+$menu-highlight-text: $action-color;
+$menu-highlight-icon: $action-color;
+$menu-highlight-background: $highlight-color;
+
+$menu-current-text: $white;
+$menu-current-icon: $white;
+$menu-current-background: $action-color;
+
+$menu-submenu-text: $white;
+$menu-submenu-background: $base-color;
+$menu-submenu-background-alt: $base-color;
+
+$menu-submenu-focus-text: $action-color;
+$menu-submenu-current-text: $action-color;
+
+$menu-bubble-text: $action-color;
+$menu-bubble-background: $white;
+$menu-bubble-current-text: $action-color;
+$menu-bubble-current-background: $white;
+
+$adminbar-avatar-frame: $menu-background;
+
+@import "../admin";
